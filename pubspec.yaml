@@ -1,0 +1,68 @@
+name: voxly
+description: Your voice. Your day.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.5.0
+
+  # State management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Navigation
+  go_router: ^12.1.3
+
+  # Voice
+  flutter_tts: ^4.0.0
+  speech_to_text: ^6.6.0
+
+  # Overlay & Background
+  # # flutter_background_service: ^5.0.5
+
+  # Animations
+  lottie: ^3.0.0
+  rive: ^0.12.4
+
+  # Local storage
+  shared_preferences: ^2.2.1
+  hive_flutter: ^1.1.0
+
+  # UI
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.5.0
+  confetti: ^0.7.0
+
+  # Widgets
+  home_widget: ^0.4.1
+  flutter_local_notifications: ^17.0.0
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  permission_handler: ^11.1.0
+  device_info_plus: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  riverpod_generator: ^2.3.9
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  # Add assets section for Lottie and Icons if needed later
+  assets:
+    - assets/lottie/
+
